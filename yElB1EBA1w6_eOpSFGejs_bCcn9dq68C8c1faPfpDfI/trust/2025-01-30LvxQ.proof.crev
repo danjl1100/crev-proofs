@@ -15,3 +15,20 @@ trust: medium
 nQMfpdZgR0JhmsgZcXUa4quD6K1yj3oXO27nQSqsbf-_MGY3g32-J1XXCfr6OV61-VsontcYmxV4U7gXyCT7Aw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2025-01-28T12:28:40.187060+09:00
+from:
+  id-type: crev
+  id: yElB1EBA1w6_eOpSFGejs_bCcn9dq68C8c1faPfpDfI
+  url: https://github.com/danjl1100/crev-proofs.git
+ids:
+- id-type: crev
+  id: FYlr8YoYGVvDwHQxqEIs89reKKDy-oWisoO0qXXEfHE
+  url: https://github.com/dpc/crev-proofs
+trust: medium
+----- SIGN CREV PROOF -----
+53PbaSFvqM8FxA6MtKkrb2873yf9W-2Kkm5_dUU6neLaJRs7HaNbUG54r0vIY65kan2Y4XDq8SGABLPrwQYLCg
+----- END CREV PROOF -----
+
