@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-01-28T15:41:09.483786+09:00
+from:
+  id-type: crev
+  id: yElB1EBA1w6_eOpSFGejs_bCcn9dq68C8c1faPfpDfI
+  url: https://github.com/danjl1100/crev-proofs.git
+package:
+  source: https://crates.io
+  name: beet_db
+  version: 0.1.0
+  revision: ca0deeb5c45a92cec2cfa038da73190e68683a72
+  digest: kgg8sDV8RGMc9aUuQWk_Z-q0ZT0LUvypMuGvxlcYq_w
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  The sqlite database in the tests folder contains some binary / non-text portions,
+  but running sqlite "pragma integrity_check;" passed OK.
+  Hopefully the binary portions are just sqlite's indexes?
+----- SIGN CREV PROOF -----
+R0gFuwQMd2dNAbzq8mZDHpkoDvB4z8PAL4FTrqLXbBxfxvDP_8xAdOlxnWCTYvFWLbOhOubIR5e8cDGj4tnkAA
+----- END CREV PROOF -----
+
